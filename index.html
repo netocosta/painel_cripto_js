@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio CriptoMoedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="conteudo">
+
+
+        <div id="centro_topo">
+
+            <div id="centro_topo_titulo">
+                <h1>Portfolio</h1>
+            </div>
+            <div id="centro_topo_total">
+                <span class="brl">BRL</span>
+                <div class="toggle">
+                    <input type="checkbox" id="resposta" onclick="_load()">
+                    <label for="resposta"></label>
+                </div>
+                <span class="usd">USD</span>
+
+                <span class="titulo">Saldo Geral:</span>
+                <span class="saldo">R$ -</span>
+            </div>
+
+        </div>
+
+        <div id="centro_lista">
+
+            <div id="centro_lista_topo">
+                <span class="titulo">Recursos</span>
+                <span class="button" onclick="adicionar()">Add</span>
+            </div>
+
+            <div id="centro_lista_tabela_head">
+                <table width="100%" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <th class="column0">Wallet</th>
+                        <th class="column1">Token</th>
+                        <th class="column3">Preço Atual</th>
+                        <th class="column4">Saldo</th>
+                        <th class="column5">Ações</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="centro_lista_tabela">
+                <table id="dados" width="100%" cellspacing="0" cellpadding="0">
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.5.0/feather.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
