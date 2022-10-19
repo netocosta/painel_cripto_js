@@ -4,7 +4,7 @@ O intuito desse painel é você poder adicionar as suas criptomoedas e carteiras
 
 ## 🚀 Projeto em execução
 
-[Painel de Criptomoedas](https://netocosta.com.br/painel_de_criptos/)
+[Painel de Criptomoedas](https://netocosta.com.br/projetos/painel_de_criptos/)
 
 ## 🚀 Algumas informações precisam ser passadas.
 
