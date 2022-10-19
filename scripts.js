@@ -2,8 +2,9 @@ $(function () {
     feather.replace();
 });
 
-if (localStorage.getItem('data')) {
-    localStorage.setItem('data', [])
+
+if (localStorage.getItem('data') === null) {
+    localStorage.setItem('data', "[]")
 }
 
 _load() // Carrega o script
