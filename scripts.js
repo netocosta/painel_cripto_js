@@ -40,6 +40,7 @@ function _load() {
             const price_change_percentage_24h = api ? api.price_change_percentage_24h : "{percent}"
             const my_balance = data.balance
             const symbol_spot = spots.filter((item) => item.spot.includes(spot))[0].symbol
+            const variantcor = api.price_change_percentage_24h > 0 ? 'green' : 'red'
 
             let tabela = document.getElementById("dados")
             let anterior = tabela.innerHTML
@@ -51,7 +52,7 @@ function _load() {
                 `  <img src="${image}" width="28" height="28" />`,
                 `  <div class="cripto"><span class="abv">${symbol}</span><span class="nome">${name}</span></div>`,
                 ` </td>`,
-                ` <td class="column3"><span class="price">${symbol_spot} ${formatNumber.format(current_price)}</span><span class="variant">${formatNumber.format(price_change_percentage_24h)} %</span></td>`,
+                ` <td class="column3"><span class="price">${symbol_spot} ${formatNumber.format(current_price)}</span><span class="variant ${variantcor}">${formatNumber.format(price_change_percentage_24h)} %</span></td>`,
                 ` <td class="column4"><span class="balance">${symbol_spot} ${formatNumber.format(current_price * my_balance)}</span><span class="cripto">${formatNumberCripto.format(my_balance)} ${symbol}</span></td>`,
                 ` <td class="column5"><span class="button" onclick="remover(${index})">Del</span> <span class="button" onclick="editar(${index})">Change</span></td>`,
                 `</tr>`,
