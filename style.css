@@ -186,11 +186,17 @@ a:active {
 
 #centro_lista_tabela table tr td.column3 span.variant {
     display: block;
-    color: #FE5C3E;
     font-weight: bold;
     font-size: 12px;
 }
 
+.green {
+    color: #84fe3e;
+}
+
+.red {
+    color: #FE5C3E;
+}
 #centro_lista_tabela table tr td.column4 span.balance {
     display: block;
     color: #FFF;
