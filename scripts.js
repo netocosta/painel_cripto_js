@@ -2,6 +2,10 @@ $(function () {
     feather.replace();
 });
 
+if (localStorage.getItem('data')) {
+    localStorage.setItem('data', [])
+}
+
 _load() // Carrega o script
 
 var spots = [ // simbolo da moeda
