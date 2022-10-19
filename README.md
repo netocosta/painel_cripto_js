@@ -2,6 +2,10 @@
 
 O intuito desse painel é você poder adicionar as suas criptomoedas e carteiras e verificar o saldo atual em um único lugar.
 
+## 🚀 Projeto em execução
+
+[Painel de Criptomoedas](https://netocosta.com.br/painel_de_criptos/)
+
 ## 🚀 Algumas informações precisam ser passadas.
 
 1. Utilizei o localStorage, então quando você adicionar uma cripto, ela ficará disponível apenas no navegador que você está. (Em breve vou criar a função de exportar e importar).
@@ -12,10 +16,6 @@ O intuito desse painel é você poder adicionar as suas criptomoedas e carteiras
 * Evite ficar atualizando o tempo todo, senão o CoinGecko bloqueia por ter ultrapassado o limite de consultas.
 
 No mais, bom uso!
-
-## 🚀 Projeto em execução
-
-[Painel de Criptomoedas](https://netocosta.github.io/painel_de_criptos/)
 
 ## 🗣️ Redes Sociais
 
