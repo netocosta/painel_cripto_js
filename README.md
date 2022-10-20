@@ -14,6 +14,7 @@ O intuito desse painel é você poder adicionar as suas criptomoedas e carteiras
 * Por cripto adicionada o sistema faz 1 consulta, então de você tiver 20 criptos, ao carregar uma vez, serão realizadas 20 consultas na API.
 * Se você tem muitas criptos, adicione apenas as que você deseja ficar verificando constantemente. 
 * Evite ficar atualizando o tempo todo, senão o CoinGecko bloqueia por ter ultrapassado o limite de consultas.
+4. Eu poderia ter utilizado outra API que não tivesse um limite de requisições tão baixo, porém preferi a CoinGecko pois foi a que percebi que tem uma grande variedade de criptos, que inclusive não encontrei em outras.
 
 No mais, bom uso!
 
